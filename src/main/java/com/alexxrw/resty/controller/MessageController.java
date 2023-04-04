@@ -11,13 +11,12 @@ import java.util.Map;
 /**
  * Request for testing POST method in DevTools:
  * fetch('/message', { method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({ text: 'Fourth message'})}).then(result => console.log(result))
- *
+ * <p>
  * Request for testing PUT method in DevTools:
  * fetch('/message/4', { method: 'PUT', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({ text: 'Fourth message (4)', id: 10})}).then(result => console.log(result))
- *
+ * <p>
  * Request for testing DELETE method in DevTools:
  * fetch('/message/4', { method: 'DELETE'}).then(result => console.log(result))
- *
  */
 @RestController
 @RequestMapping("message")

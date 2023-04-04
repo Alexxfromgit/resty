@@ -1,4 +1,3 @@
-
 var messageApi = Vue.resource('/message{/id}');
 
 Vue.component('message-row', {
